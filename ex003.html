@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu primeiro programa...</title>
+    <style>
+      body {
+        background-color: rgba(133, 144, 203, 0.773); /*cor da pagina */
+        color: white; /*cor da letras */
+        font: normal 20pt arial; /* fonte*/
+      }
+      h1 {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição.</p>
+    <script>
+      var n1 = Number(window.prompt("Digite um número:")); //string (o commando Number.parseInt faz a conversao entre string e number)
+      var n2 = Number(window.prompt("Digite outo número:")); //string ( Number.paserInt = a number interio já p Number.paserFloat  = numero real)
+      //outra opção é usar apenas o Number uma vez que ja a conversao automatica para real ou inteiro.
+      var s = n1 + n2;
+      window.alert(`A soma dos valores ${n1} e ${n2} é igual a ${s}`); // Concatenação
+      //(Number + Number) para adição
+      //(String + String) para concatenação
+    </script>
+  </body>
+</html>
